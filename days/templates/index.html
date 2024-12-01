@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>День недели</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        .monday { background-color: #3498db; }
+        .tuesday { background-color: #e67e22; }
+        .wednesday { background-color: #2ecc71; }
+        .thursday { background-color: #f1c40f; }
+        .friday { background-color: #e74c3c; }
+        .saturday { background-color: #9b59b6; }
+        .sunday { background-color: #34495e; }
+    </style>
+</head>
+<body class="{{ day_class }}">
+    <h1>Сегодня {{ day_name }}</h1>
+</body>
+</html>
